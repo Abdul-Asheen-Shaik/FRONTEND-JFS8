@@ -1,0 +1,212 @@
+@media(min-width: 1200px){
+		.card1{
+			background-color: white;
+			width: 100%;
+			height: 60px;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: auto auto auto auto auto auto auto;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			box-shadow: 0px 0px 10px black;
+		}
+		.card1 div{
+			background-color:white;
+			color: black;
+			font-weight:bold;
+			font-size:20px;
+			padding: 10px;
+		    width:100px;
+		    border-radius: 30px;
+		    text-align: center;
+		    align-content: center;
+		}
+		.img1{
+			width:100px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px black;
+
+		}
+	}
+	.card2{
+		background-color:lightblue;
+		display: grid;
+		padding: 10px;
+		width: 100%;
+		grid-template-columns: 10% 10% 10% 50% auto;
+		text-indent:80px ;
+	}
+	.card2 div{
+			background-color:lightblue;
+			color: black;
+			font-weight:bold;
+			font-size:20px;
+			padding:5px;
+		    width:100px;
+		    border-radius:10px;
+		    text-align: center;
+		    align-content: center;
+		}
+		.img2{
+			width:80px;
+			height:60px;
+		}
+		.table1{
+			padding:30px;
+			width: 1500px;
+		}
+		.img3{
+			height:300px;
+			width:400px;
+			border-radius: 5px;
+			border: solid;
+			box-shadow: 0px 0px 10px black;
+		}
+		.img4{
+			height:300px;
+			width:400px;
+			border-radius: 5px;
+			border: solid;
+			box-shadow: 0px 0px 10px black;
+		}
+		.img5{
+			height:300px;
+			width:400px;
+			border-radius: 5px;
+			border: solid;
+			box-shadow: 0px 0px 10px black;
+		}
+		
+		.card3{
+		width: 100%;
+		}
+		.img6{
+			width:1530px;
+		}
+		.img7{
+			width: 1500px;
+			height:550px;
+		}
+		.img8{
+			width: 1523px;
+			height:400px;
+		}
+		
+			@media(max-width:1200px) and (min-width:600px){
+				.card1{
+					position: fixed;
+					background-color: white;
+					top: 0px;
+					left: 0px;
+					display: grid;
+					width: 100%;
+					grid-template-columns: 10% 10% 10% 10% 10% auto;
+				}
+				.card1 div{
+					background-color:white;
+			        color: black;
+			        font-weight:bold;
+			        font-size:15px;
+			        padding:5px;
+		            width:100px;
+		            border-radius: 30px;
+		            text-align: center;
+		            align-content: center;
+
+				}
+				.img1{
+					width:80px;
+				}
+				.signin{
+					display: none;
+				}
+				.card2{
+					display: grid;
+					width:1100px;
+					grid-template-columns: 10% 8% 10% 13% auto;
+				}
+				.card2 div{
+					background-color:lightblue;
+			        color: black;
+			        font-weight:bold;
+			        font-size:15px;
+			        padding:5px;
+		            width:100%;
+		            border-radius:10px;
+		            text-align: center;
+		            align-content: center;
+
+				}
+				.fly{
+					display: none;
+				}
+				.bus{
+					display: none;
+				}
+				.tra{
+					display: none;
+				}
+				.intl{
+					display: none;
+				}
+				.img2{
+					display: none;
+				}
+				.img5{
+					display: none;
+				}
+				.table1{
+					padding:50px;
+					width:100%;
+				}
+				.card3{
+					width: 1120px;
+				}
+				.img6{
+					width:100%;
+					height:300px;
+				}
+				.img7{
+					width:100%;
+					height:400px;
+				}
+				.img8{
+					width:1120px;
+					height: 300px;
+				}
+
+          @media(max-width:600px){
+
+          	   .card1{
+			background-color: white;
+			width: 100%;
+			height: 60px;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: auto auto auto auto auto auto auto;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			box-shadow: 0px 0px 10px black;
+		}
+		.card1 div{
+			background-color:white;
+			color: black;
+			font-weight:bold;
+			font-size:20px;
+			padding: 10px;
+		    width:100px;
+		    border-radius: 30px;
+		    text-align: center;
+		    align-content: center;
+		}
+		.img1{
+			width: 80px;
+		}
+		
+				}
+			}
+
+			}
+}

@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>z-index</title>
+ 	<style type="text/css">
+ 		.img1{
+ 			position: absolute;
+ 			height: 100px;
+ 			width: 200px;
+ 			top: 50px;
+ 			z-index:1;
+		}
+ 		.img2{
+ 			position: absolute;
+ 			height: 100px;
+ 			width: 200px;
+ 			left: 70px;
+ 			top: 50px;
+ 			z-index:2;
+ 		}
+ 		.img3{
+ 			position: absolute;
+ 			height: 100px;
+ 			width: 50px;
+ 			left: 140px;
+ 			top: 50px;
+ 			z-index: 1;	
+ 		}
+ 		.img1:hover{
+ 			  z-index:1;
+ 			  border: solid;
+ 		}
+ 		.img2:hover{
+ 			  z-index: 1;
+ 			  border: solid;
+ 		}
+
+        .img3:hover{
+ 			  z-index:1;
+ 			  border: solid;
+ 		}
+
+ 	</style>
+ </head>
+ <body>
+ 	<div class="img1">
+ 		<img src="https://tse3.mm.bing.net/th?id=OIP.W1s1mL1EAp3lIWRFzi_9uAHaNK&pid=Api&P=0&h=180">
+ 	</div>
+ 	<div class="img2">
+ 		<img src="https://tse3.mm.bing.net/th?id=OIP.dsVj5S1Np9FNm9ezJ1q-aAHaLH&pid=Api&P=0&h=180">
+ 	</div>
+ 	<div class="img3">
+         <img src="https://tse3.mm.bing.net/th?id=OIP.nCx3sBVW_QCpg1MtZg-J1gHaHa&pid=Api&P=0&h=180"> 		
+ 	</div>
+ </body>
+ </html>
